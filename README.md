@@ -1,4 +1,4 @@
-### Amazon Fine Food Review Score Prediction
+## Amazon Fine Food Review Score Prediction
 
 # Overview
 
