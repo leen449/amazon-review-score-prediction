@@ -1,4 +1,4 @@
-# Amazon Fine Food Review Score Prediction
+### Amazon Fine Food Review Score Prediction
 
 # Overview
 
@@ -124,7 +124,7 @@ It is efficient, interpretable, and performs well with high-dimensional feature 
 A support vector machine using a linear kernel.  
 LSVM is known to perform strongly on text classification tasks due to its ability to handle sparse high-dimensional feature vectors.
 
-## BERT (Bidirectional Encoder Representations from Transformers)
+### BERT (Bidirectional Encoder Representations from Transformers)
 
 In addition to classical machine learning models, we plan to explore BERT, a transformer-based deep learning model that has achieved state-of-the-art performance in many natural language processing tasks. BERT captures contextual relationships between words by processing text bidirectionally, allowing it to better understand the meaning of sentences compared to traditional methods. In this project, BERT will be fine-tuned for multi-class classification to predict review scores from the combined review text. The performance of BERT will later be compared with the classical models to evaluate whether deep learning provides improvements for this task.
 
