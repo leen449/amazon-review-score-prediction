@@ -1,4 +1,5 @@
 ## Amazon Fine Food Review Score Prediction
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ba417280-e9ea-4390-b9d5-d8eca5a7a20b" />
 
 # Overview
 
