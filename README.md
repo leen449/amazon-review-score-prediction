@@ -206,8 +206,8 @@ _(Results will be updated after experiments are completed.)_
     │   └── 04_evaluation/
     │
     ├── models/
-    │   ├── lr_model/
-    │   └── lsvm_model/
+    │   ├── lr_model.pkl
+    │   └── lsvm_model.pkl
     │
     ├── reports/
     │   ├── figures/
