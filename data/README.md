@@ -21,7 +21,7 @@ The dataset is originally compiled from Amazon product reviews and is commonly u
 After placing the dataset in the correct location, run the data preprocessing notebook:
 
 ```plaintext
-notebooks/01_data_cleaning_eda.ipynb
+notebooks/01_data_cleaning_eda/data_cleaning_and_eda_amazon_fine_food_review_score_prediction (1).ipynb
 ```
 
 This notebook performs the following steps:
