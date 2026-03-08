@@ -197,7 +197,7 @@ _(Results will be updated after experiments are completed.)_
     ├── .gitignore
     │
     ├── data/
-    │   └── processed/
+    │   └── README.md
     │
     ├── notebooks/
     │   ├── 01_data_cleaning_eda/
