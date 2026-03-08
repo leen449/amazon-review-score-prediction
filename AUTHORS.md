@@ -7,9 +7,9 @@ This project was developed as part of a Machine Learning coursework project.
 | Name | Role |
 |-----|------|
 | Student Name 1 | Logistic Regression (TF-IDF) |
-| Student Name 2 | Linear SVM (TF-IDF) |
+| Aryam Almutairi | Linear SVM (TF-IDF) |
 | Student Name 3 | Logistic Regression (Word2Vec) |
-| Student Name 4 | Linear SVM (Word2Vec) |
+| Leen Binmueqal | Linear SVM (Word2Vec) |
 
 ## Contributions
 
