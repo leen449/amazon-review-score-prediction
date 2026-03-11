@@ -8,5 +8,6 @@ nltk
 wordcloud
 scikit-learn
 gensim
+scipy
 jupyter
 notebook
