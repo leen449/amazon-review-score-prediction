@@ -184,7 +184,7 @@ _(Results will be updated after experiments are completed.)_
 | Logistic Regression | TF-IDF | TBD | TBD | TBD |
 | Linear SVM | TF-IDF | 0.60 | 0.73 | 0.72 |
 | Logistic Regression | Word2Vec | TBD | TBD | TBD |
-| Linear SVM | Word2Vec | TBD | TBD | TBD |
+| Linear SVM | Word2Vec | 0.22 | 0.41 | 0.38 |
 
 * * *
 
