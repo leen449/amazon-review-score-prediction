@@ -182,7 +182,7 @@ _(Results will be updated after experiments are completed.)_
 | Model | Feature Representation | Macro F1 | Weighted F1 | Accuracy |
 | --- | --- | --- | --- | --- |
 | Logistic Regression | TF-IDF | TBD | TBD | TBD |
-| Linear SVM | TF-IDF | TBD | TBD | TBD |
+| Linear SVM | TF-IDF | 0.60 | 0.73 | 0.72 |
 | Logistic Regression | Word2Vec | TBD | TBD | TBD |
 | Linear SVM | Word2Vec | TBD | TBD | TBD |
 
