@@ -202,8 +202,7 @@ _(Results will be updated after experiments are completed.)_
     ├── notebooks/
     │   ├── 01_data_cleaning_eda/
     │   ├── 02_feature_engineering/
-    │   ├── 03_model_training/
-    │   └── 04_evaluation/
+    │   └── 03_model_training/
     │
     ├── models/
     │   ├── lr_model.pkl
