@@ -1,12 +1,21 @@
+# Data handling
 pandas
 numpy
+
+# Visualization
 matplotlib
 seaborn
+wordcloud
+
+# NLP & preprocessing
+nltk
 beautifulsoup4
 langdetect
-nltk
-wordcloud
+
+# Machine Learning
 scikit-learn
 gensim
 scipy
+
+# Environment
 notebook
