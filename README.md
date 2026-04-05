@@ -205,9 +205,9 @@ _(Results will be updated after experiments are completed.)_
     │   └── 03_model_training/
     │
     ├── models/
-    │   ├── lr_model.pkl
-    │   └── lsvm_model.pkl
-    │
+    │   ├── lrtfidf__model.pkl
+    │   ├── lsvm_tfidf_model.pkl
+    │   └── tfidf_vectorizer.pkl
     ├── reports/
     │   ├── figures/
     │   └── results_table/
