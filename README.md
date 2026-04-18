@@ -143,6 +143,7 @@ The following combinations are evaluated:
 | TF-IDF | Linear SVM |
 | Word2Vec | Logistic Regression |
 | Word2Vec | Linear SVM |
+| Raw Text | Bert |
 
 Hyperparameter tuning is performed using the **validation set**.
 
