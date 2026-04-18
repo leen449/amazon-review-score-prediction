@@ -91,7 +91,7 @@ After preprocessing, the dataset is split into:
 -   **20% Test set**
     
 
-The training set is balanced using **stratified sampling** to ensure equal representation of each rating class.
+To address class imbalance, the **training set was balanced by sampling an equal number of examples from each rating class which is 15000**, while the validation and test sets retained their original class distribution.
 
 * * *
 
@@ -143,7 +143,7 @@ The following combinations are evaluated:
 | TF-IDF | Linear SVM |
 | Word2Vec | Logistic Regression |
 | Word2Vec | Linear SVM |
-| Raw Text | Bert |
+| Raw Text | BERT |
 
 Hyperparameter tuning is performed using the **validation set**.
 
