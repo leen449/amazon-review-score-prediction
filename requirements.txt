@@ -17,5 +17,10 @@ scikit-learn
 gensim
 scipy
 
+# Deep Learning / BERT
+torch
+transformers
+accelerate
+
 # Environment
 notebook
