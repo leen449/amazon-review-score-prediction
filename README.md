@@ -129,7 +129,7 @@ LSVM is known to perform strongly on text classification tasks due to its abilit
 In addition to classical machine learning models, we implemented BERT, a transformer-based deep learning model that achieves state-of-the-art performance in many NLP tasks.
 BERT captures contextual relationships between words by processing text bidirectionally, allowing it to better understand sentence meaning compared to traditional methods.
 In this project, we fine-tuned the pre-trained **bert-base-cased** model for multi-class classification to predict review scores from the combined review text.
-The model was trained for **3 epochs** with a learning rate of **1e-5**, following standard fine-tuning practices. The training set was balanced, while validation and test sets retained the original class distribution.
+The model was trained for **3 epochs** with a learning rate of **0.00001**, following standard fine-tuning practices. The training set was balanced, while validation and test sets retained the original class distribution.
 
 * * *
 
