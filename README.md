@@ -126,8 +126,10 @@ A support vector machine using a linear kernel.
 LSVM is known to perform strongly on text classification tasks due to its ability to handle sparse high-dimensional feature vectors.
 
 ### BERT (Bidirectional Encoder Representations from Transformers)
-
-In addition to classical machine learning models, we plan to explore BERT, a transformer-based deep learning model that has achieved state-of-the-art performance in many natural language processing tasks. BERT captures contextual relationships between words by processing text bidirectionally, allowing it to better understand the meaning of sentences compared to traditional methods. In this project, BERT will be fine-tuned for multi-class classification to predict review scores from the combined review text. The performance of BERT will later be compared with the classical models to evaluate whether deep learning provides improvements for this task.
+In addition to classical machine learning models, we implemented BERT, a transformer-based deep learning model that achieves state-of-the-art performance in many NLP tasks.
+BERT captures contextual relationships between words by processing text bidirectionally, allowing it to better understand sentence meaning compared to traditional methods.
+In this project, we fine-tuned the pre-trained **bert-base-cased** model for multi-class classification to predict review scores from the combined review text.
+The model was trained for **3 epochs** with a learning rate of **1e-5**, following standard fine-tuning practices. The training set was balanced, while validation and test sets retained the original class distribution.
 
 * * *
 
@@ -177,15 +179,23 @@ Final model performance is reported on the **test set**, which is not used durin
 
 # Final Results
 
-_(Results will be updated after experiments are completed.)_
 
 | Model | Feature Representation | Macro F1 | Weighted F1 | Accuracy |
-| --- | --- | --- | --- | --- |
+|------|----------------------|----------|-------------|----------|
 | Logistic Regression | TF-IDF | 0.59 | 0.71 | 0.68 |
 | Linear SVM | TF-IDF | 0.60 | 0.73 | 0.72 |
 | Logistic Regression | Word2Vec | 0.25 | 0.40 | 0.35 |
 | Linear SVM | Word2Vec | 0.26 | 0.42 | 0.37 |
+| **BERT** | Raw Text | **0.67** | **0.78** | **0.77** |
 
+* * *
+## Results Analysis
+
+The BERT model significantly outperformed traditional machine learning models across all evaluation metrics. This demonstrates the advantage of contextual embeddings over classical feature engineering methods such as TF-IDF and Word2Vec.
+
+However, performance varies across classes. The model achieves strong results on the majority class (5-star reviews), while performance is lower on intermediate classes (2–4 stars). This is mainly due to the inherent class imbalance and the subjective nature of rating distinctions.
+
+The confusion matrix shows that most errors occur between adjacent classes (e.g., 4 vs 5), indicating that the model captures general sentiment well but struggles with fine-grained distinctions.
 * * *
 
 # Repository Structure
