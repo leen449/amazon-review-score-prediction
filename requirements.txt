@@ -14,7 +14,6 @@ langdetect
 
 # Machine Learning
 scikit-learn
-imbalanced-learn
 gensim
 scipy
 
