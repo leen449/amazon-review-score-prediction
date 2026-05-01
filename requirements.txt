@@ -14,6 +14,7 @@ langdetect
 
 # Machine Learning
 scikit-learn
+imbalanced-learn
 gensim
 scipy
 
@@ -22,5 +23,10 @@ torch
 transformers
 accelerate
 
-# Environment
+# Utilities
+tqdm
+
+# Notebook environment
 notebook
+jupyter
+ipykernel
