@@ -183,11 +183,11 @@ Final model performance is reported on the **test set**, which is not used durin
 
 | Model | Feature Representation | Macro F1 | Weighted F1 | Accuracy |
 |------|----------------------|----------|-------------|----------|
-| Logistic Regression | TF-IDF | 0.59 | 0.71 | 0.68 |
-| Linear SVM | TF-IDF | 0.60 | 0.73 | 0.72 |
-| Logistic Regression | Word2Vec | 0.25 | 0.40 | 0.35 |
-| Linear SVM | Word2Vec | 0.26 | 0.42 | 0.37 |
-| **BERT** | Raw Text | **0.67** | **0.78** | **0.77** |
+| Logistic Regression | TF-IDF | 0.59 | 0.70 | 0.68 |
+| Linear SVM | TF-IDF | 0.59 | 0.71 | 0.69 |
+| Logistic Regression | Word2Vec | 0.46 | 0.62 | 0.59 |
+| Linear SVM | Word2Vec | 0.46 | 0.65 | 0.63 |
+| **BERT** | Raw Text | **0.67** | **0.77** | **0.75** |
 
 * * *
 ## Results Analysis
