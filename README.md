@@ -210,15 +210,15 @@ The confusion matrix shows that most errors occur between adjacent classes (e.g.
     ├── data/
     │   └── README.md
     │
-    ├── notebooks/
+    ├──notebooks/
+    ├── experiments/
     │   ├── 01_data_cleaning_eda/
     │   ├── 02_feature_engineering/
     │   └── 03_model_training/
     │
-    ├── models/
-    │   ├── lrtfidf__model.pkl
-    │   ├── lsvm_tfidf_model.pkl
-    │   └── tfidf_vectorizer.pkl
+    └── final/
+    |    └── Amazon_Fine_Food_Review_Score_Prediction_final.ipynb
+    |
     ├── reports/
     │   ├── figures/
     │   └── results_table/
