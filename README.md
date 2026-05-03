@@ -185,7 +185,7 @@ Final model performance is reported on the **test set**, which is not used durin
 |------|----------------------|----------|-------------|----------|
 | Logistic Regression | TF-IDF | 0.59 | 0.70 | 0.68 |
 | Linear SVM | TF-IDF | 0.59 | 0.71 | 0.69 |
-| Logistic Regression | Word2Vec | 0.46 | 0.62 | 0.59 |
+| Logistic Regression | Word2Vec | 0.46 | 0.63 | 0.59 |
 | Linear SVM | Word2Vec | 0.46 | 0.65 | 0.63 |
 | **BERT** | Raw Text | **0.67** | **0.77** | **0.75** |
 
